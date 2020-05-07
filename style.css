@@ -46,7 +46,8 @@ a:hover {
 .right-top-link {
   padding-left: 15px;
   font-size: 13px;
-  color: rgba(0, 0, 0, 87);
+  color: #000;
+  opacity: 0.75;
 }
 .google-apps-btn {
   display: inline-block;
@@ -57,6 +58,9 @@ a:hover {
   height: 30px;
   width: 30px;
   margin-left: 15px;
+}
+.google-apps-btn:hover {
+  opacity: 0.85;
 }
 .sign-in-btn {
   color: #fff;
@@ -70,14 +74,18 @@ a:hover {
   border-radius: 2px;
   margin-left: 15px;
 }
+.sign-in-btn:hover {
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
 
 main {
-    text-align: center;
+  text-align: center;
 }
 
 .google-logo {
-    padding-top: 200px;
-    text-align: center;
+  padding-top: 200px;
+  text-align: center;
 }
 
 .googlemic {
