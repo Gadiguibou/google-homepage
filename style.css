@@ -1,4 +1,18 @@
 /* main style sheet for the google-homepage project*/
+
+/* Base reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* box-sizing */
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+    
 body {
   font-family: arial, sans-serif;
 }
