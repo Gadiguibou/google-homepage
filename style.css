@@ -38,8 +38,8 @@ a:hover {
 
 .right-top-div {
   position: absolute;
-  top: 15px;
-  right: 30px;
+  top: 16px;
+  right: 20px;
   display: flex;
   align-items: center;
 }
@@ -53,22 +53,22 @@ a:hover {
   background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
   background-position: -132px -38px;
   background-size: 528px 68px;
-  opacity: .55;
+  opacity: 0.55;
   height: 30px;
   width: 30px;
   margin-left: 15px;
 }
 .sign-in-btn {
-    color: #fff;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 28px;
-    cursor: default;
-    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
-    padding: 0 12px;
-    border: 1px solid #4285f4;
-    border-radius: 2px;
-    margin-left: 15px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 28px;
+  cursor: default;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  padding: 0 12px;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  margin-left: 15px;
 }
 
 .googlemic {
