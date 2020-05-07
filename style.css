@@ -1,9 +1,26 @@
 /* main style sheet for the google-homepage project*/
-
+body {
+  font-family: arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.left-top-div {
+  position: absolute;
+  top: 22px;
+  left: 10px;
+}
+.left-top-btn {
+  padding-left: 15px;
+  font-size: 13px;
+  color: #000;
+  opacity: 0.75;
+}
 .googlemic {
-    background-image: url(https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
-    background-size: 24px;
-    height: 24px;
-    width: 24px;
-    cursor: pointer;
+  background-image: url(https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+  background-size: 24px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
 }
