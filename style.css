@@ -58,6 +58,18 @@ a:hover {
   width: 30px;
   margin-left: 15px;
 }
+.sign-in-btn {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: default;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    padding: 0 12px;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    margin-left: 15px;
+}
 
 .googlemic {
   background-image: url(https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
