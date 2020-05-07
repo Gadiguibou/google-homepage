@@ -38,8 +38,10 @@ a:hover {
 
 .right-top-div {
   position: absolute;
-  top: 22px;
+  top: 15px;
   right: 30px;
+  display: flex;
+  align-items: center;
 }
 .right-top-link {
   padding-left: 15px;
@@ -54,6 +56,7 @@ a:hover {
   opacity: .55;
   height: 30px;
   width: 30px;
+  margin-left: 15px;
 }
 
 .googlemic {
