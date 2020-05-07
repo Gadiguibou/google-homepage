@@ -2,17 +2,17 @@
 
 /* Base reset */
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* box-sizing */
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-    
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: arial, sans-serif;
 }
@@ -23,6 +23,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 .left-top-div {
   position: absolute;
   top: 22px;
@@ -33,6 +34,12 @@ a:hover {
   font-size: 13px;
   color: #000;
   opacity: 0.75;
+}
+
+.right-top-div {
+    position: absolute;
+    top: 22px;
+    right: 30px;
 }
 .right-top-link {
   padding-left: 15px;
