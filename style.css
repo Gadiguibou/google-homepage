@@ -39,7 +39,7 @@ a:hover {
 .right-top-div {
   position: absolute;
   top: 16px;
-  right: 20px;
+  right: 30px;
   display: flex;
   align-items: center;
 }
