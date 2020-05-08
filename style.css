@@ -13,9 +13,12 @@
   box-sizing: inherit;
 }
 
+/* set body font family*/
 body {
   font-family: arial, sans-serif;
 }
+
+/* basic styling for links */
 a {
   text-decoration: none;
   cursor: pointer;
@@ -24,6 +27,8 @@ a:hover {
   text-decoration: underline;
 }
 
+/* START HEADER */
+/* left-top */
 .left-top-div {
   position: absolute;
   top: 22px;
@@ -36,6 +41,7 @@ a:hover {
   opacity: 0.75;
 }
 
+/* right-top */
 .right-top-div {
   position: absolute;
   top: 16px;
@@ -78,7 +84,9 @@ a:hover {
   text-decoration: none;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
 }
+/* END HEADER */
 
+/* START MAIN */
 main {
   text-align: center;
 }
@@ -88,6 +96,7 @@ main {
   text-align: center;
 }
 
+/* START SEARCH BAR*/
 .search-bar {
   width: 584px;
   height: 44px;
@@ -125,6 +134,7 @@ main {
   cursor: pointer;
   margin: 10px;
 }
+/* END SEARCH BAR */
 
 .submit-btn {
   background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
@@ -145,7 +155,9 @@ main {
   color: #222;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
+/* END MAIN */
 
+/* START FOOTER */
 footer {
   position: absolute;
   bottom: 0px;
@@ -164,12 +176,15 @@ footer {
   padding-left: 27px;
   letter-spacing: 0px;
 }
+/* bottom-left */
 .bottom-left-div {
   display: flex;
   align-items: center;
 }
+/* bottom-right */
 .bottom-right-div {
   display: flex;
   align-items: center;
   margin-right: 27px;
 }
+/* END FOOTER */
