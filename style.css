@@ -156,3 +156,8 @@ footer {
     display: flex;
     align-items: center;
 }
+
+.bottom-left-div {
+    display: flex;
+    align-items: center;
+}
