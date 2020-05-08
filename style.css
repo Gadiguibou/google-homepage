@@ -96,6 +96,10 @@ main {
   margin: 24px auto;
   display: flex;
 }
+.search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
 .search-icon {
   width: 20px;
   height: 20px;
